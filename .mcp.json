@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "beheer-je-wp": {
+      "type": "http",
+      "url": "https://beheerjewp.nl/mcp"
+    }
+  }
+}

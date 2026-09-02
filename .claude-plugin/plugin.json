@@ -1,0 +1,22 @@
+{
+  "name": "beheer-je-wp",
+  "version": "0.3.0",
+  "description": "Beheer één WordPress-site veilig vanuit je AI-assistent: lezen, zoeken en wijzigingen als controleerbaar voorstel klaarzetten. SEO Pro voegt alleen-lezen Search Console-inzichten toe.",
+  "author": {
+    "name": "Beheer je WP",
+    "email": "support@beheerjewp.nl",
+    "url": "https://beheerjewp.nl/"
+  },
+  "homepage": "https://beheerjewp.nl/wordpress-mcp",
+  "repository": "https://github.com/beheerjewp/agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "beheerjewp",
+    "beheer je wp",
+    "wordpress mcp",
+    "wordpress beheer",
+    "search console"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

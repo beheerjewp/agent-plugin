@@ -1,0 +1,44 @@
+{
+  "name": "beheer-je-wp",
+  "version": "0.3.0",
+  "description": "Beheer één WordPress-site veilig vanuit je AI-assistent: lezen, zoeken en wijzigingen als controleerbaar voorstel klaarzetten. SEO Pro voegt alleen-lezen Search Console-inzichten toe.",
+  "author": {
+    "name": "Beheer je WP",
+    "email": "support@beheerjewp.nl",
+    "url": "https://beheerjewp.nl/"
+  },
+  "homepage": "https://beheerjewp.nl/wordpress-mcp",
+  "repository": "https://github.com/beheerjewp/agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "beheerjewp",
+    "beheer je wp",
+    "wordpress mcp",
+    "wordpress beheer",
+    "search console"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Beheer je WP",
+    "shortDescription": "Lees WordPress en zet veilige wijzigingen klaar.",
+    "longDescription": "Koppel één WordPress-site aan je eigen AI-assistent. Lees berichten, zoek content en zet controleerbare voorstellen klaar die je in WordPress goedkeurt. Met SEO Pro gebruikt de connector je eigen Search Console-data.",
+    "developerName": "Beheer je WP",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://beheerjewp.nl/",
+    "privacyPolicyURL": "https://beheerjewp.nl/privacy",
+    "termsOfServiceURL": "https://beheerjewp.nl/voorwaarden",
+    "defaultPrompt": [
+      "Controleer mijn WordPress-site en wijzig nog niets.",
+      "Zoek het bericht dat als eerste aandacht verdient.",
+      "Maak een voorstel in mijn ingestelde schrijfstijl."
+    ],
+    "brandColor": "#155B3B",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/composer-icon.png"
+  },
+  "mcpServers": "./.mcp.json"
+}
