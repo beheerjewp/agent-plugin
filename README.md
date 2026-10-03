@@ -25,7 +25,7 @@ De WordPress-code is voor de plugin. Deel hem niet in een chat. Een connectorcod
 ## Je assistent koppelen
 
 - **Claude Code:** voeg de remote MCP-server toe met `claude mcp add --transport http beheer-je-wp https://beheerjewp.nl/mcp`. Open daarna `/mcp` in Claude Code om de verbinding te autoriseren.
-- **Codex:** gebruik `codex mcp add beheer-je-wp --url https://beheerjewp.nl/mcp` en zo nodig `codex mcp login beheer-je-wp`.
+- **Codex:** gebruik `codex mcp add beheer-je-wp --url https://beheerjewp.nl/mcp`. Dit kan meteen de OAuth-login starten; rond die af. Start de login zo nodig met `codex mcp login beheer-je-wp`.
 - **Claude.ai / Desktop:** voeg `https://beheerjewp.nl/mcp` toe als custom connector en volg de login.
 - **Cursor / Agent Plugins-clients:** installeer deze repo via een client die pluginrepos ondersteunt, of voeg dezelfde remote MCP-URL toe.
 - **Andere MCP-clients:** gebruik `https://beheerjewp.nl/mcp` met OAuth. Ondersteuning en beschikbaarheid hangen van je client af.
